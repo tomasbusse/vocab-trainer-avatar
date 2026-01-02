@@ -1,0 +1,43 @@
+{
+  "name": "vocab-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered English vocabulary trainer with avatar teacher",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "convex:dev": "npx convex dev",
+    "convex:deploy": "npx convex deploy",
+    "agent:install": "cd agent && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt",
+    "agent:dev": "cd agent && source venv/bin/activate && python vocab_agent.py dev",
+    "agent:start": "cd agent && source venv/bin/activate && python vocab_agent.py start"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.36.5",
+    "@livekit/components-react": "^2.9.17",
+    "clsx": "^2.1.1",
+    "convex": "^1.31.2",
+    "livekit-client": "^2.16.1",
+    "livekit-server-sdk": "^2.15.0",
+    "lucide-react": "^0.562.0",
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
