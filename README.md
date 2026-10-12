@@ -2,6 +2,8 @@
 
 An interactive English vocabulary trainer featuring an AI avatar teacher (Emma) powered by LiveKit, Beyond Presence, Cartesia, and Convex.
 
+Built by [Simmonds Language Services](https://www.englisch-lehrer.com), English training with native-speaker trainers in Hannover, Berlin and online since 2004. Free English lessons and worksheets: [englisch-lehrer.com/en/lessons](https://www.englisch-lehrer.com/en/lessons).
+
 ## Features
 
 - **AI Avatar Teacher**: Real-time video avatar with natural conversation
